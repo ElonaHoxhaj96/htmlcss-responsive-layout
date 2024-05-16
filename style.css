@@ -4,3 +4,27 @@
     box-sizing: border-box;
     font-family: "PT Sans";
 }
+/*STYLING HEADER */
+header{
+    width: 100%;
+    background-color: #0084fd;
+    height: 70px;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bars{
+    font-size: 40px;
+    color: white;
+}
+
+
