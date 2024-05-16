@@ -1,0 +1,55 @@
+/*RESPONSIVE FOR PHONE*/ 
+
+@media screen :first{ max-width: 568px;
+    #blue{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .blu-cards{
+        background-color: #b5ddff;
+        padding: 30px 20px 0 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    #blue h2{
+        color: #0084fd;
+    }
+    
+    button{
+        padding: 10px 20px;
+        margin: auto;
+    }
+    
+    
+    #bt-blue{
+        background-color: #0084fd;
+        border-radius: 30px;
+        border-color: transparent;
+        color: white;
+        width: 30%;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    #bt-blue > a{
+        color: white;
+        font-weight: bold;
+        text-align: justify;
+        letter-spacing: 0.2em;
+    }
+    
+    .images{
+        margin: auto;
+        display: flex;
+        align-items: flex-end;
+    }
+     
+}
