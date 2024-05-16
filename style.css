@@ -41,7 +41,7 @@ main{
 
 
 section{
-    margin: 2% auto;
+    margin: 40px auto;
 }
 
 /* first section */    
@@ -50,19 +50,30 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.blu-cards{
-    background-color: #b5ddff;
-    padding: 30px 20px 0 20px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     gap: 20px;
 }
 
+.blu-cards{
+    width: 100%;
+    background-color: #b5ddff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    
+}
+
 /*blu-card big*/
+.blu-cards.big{
+    align-items: flex-start;
+    text-align: start;
+    padding-bottom: 0;
+
+}
+
 #blue h2{
     color: #0084fd;
 }
@@ -98,6 +109,12 @@ a{
     align-items: flex-end;
 }
 
+.images > img{
+    width: 100%;
+}
 /*blu-card*/
 
-
+.icone{
+    color: #0084fd;
+    font-size: 100px
+}
