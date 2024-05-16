@@ -5,6 +5,7 @@
     font-family: "PT Sans";
     line-height: 30px;
 }
+
 /*STYLING HEADER */
 header{
     width: 100%;
@@ -48,6 +49,15 @@ section , .purple{
     flex-direction: column;
     align-items: center;  
     gap: 30px;  
+}
+
+p{
+
+    font-size: 20px;
+}
+
+h2{
+    font-size: 30px;
 }
 
 /* first section */    
@@ -150,7 +160,6 @@ a{
 }
 .purple h2{
     color: white;
-    font-size: 30px;
     margin: 50px 0;
 }
 
@@ -196,17 +205,26 @@ a{
     text-align: center;
 } 
 
-#testimonials h2{
+
+#testimonials > h2{
     color: #9593e6;
-    font-size: 30px;
 }
 
 .color-purple{
     background-color: #9593e6;
+    color: white;
 
 }
 
+.photo-circle{
+    clip-path: circle();
+}
 
-.img-testimonial{
-    border-radius: 50%;
+.color-purple p {
+    font-size: 20px;
+}
+
+.color-purple i{
+    font-size: 30px;
+    padding: 0 15px;
 }
