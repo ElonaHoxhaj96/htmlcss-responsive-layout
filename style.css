@@ -40,14 +40,15 @@ main{
 }
 
 
-section{
+section , .purple{
     margin: 40px auto;
     width: 90%;
+    
 }
 
 /* first section */    
 
-#blue{
+#blue , .purple{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,5 +131,6 @@ a{
 /*STYLING Second section*/
 .bg-purple{
     width: 100%;
-    background-color: purple;
+    background-color:#9593e6;
 }
+
