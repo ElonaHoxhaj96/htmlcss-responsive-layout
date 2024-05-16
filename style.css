@@ -51,7 +51,7 @@ section , .purple{
 #blue , .purple{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 20px;
 }
 
@@ -88,16 +88,16 @@ section , .purple{
 
 button{
     padding: 10px 20px;
+    border-radius: 30px;
+    border-color: transparent;
     margin: auto;
 }
 
 
 #bt-blue{
     background-color: #0084fd;
-    border-radius: 30px;
-    border-color: transparent;
     color: white;
-    width: 30%;
+    width: 50%;
 }
 
 a{
@@ -111,13 +111,14 @@ a{
     letter-spacing: 0.2em;
 }
 
-.images{
+#phone-img{
     margin: auto;
     display: flex;
+    justify-content: center;
     align-items: flex-end;
 }
 
-.images > img{
+#phone-img > img{
     width: 100%;
 }
 /*blu-card*/
@@ -129,8 +130,47 @@ a{
 
 
 /*STYLING Second section*/
+.images{
+    width: 100%;
+}
+
+.images img{
+    width: 100%;
+}
+
 .bg-purple{
     width: 100%;
     background-color:#9593e6;
+    padding-bottom: 40px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.purple h2{
+    color: white;
+    font-size: 30px;
 }
 
+.purple p{
+    font-weight: bold;
+    font-style: italic;
+    color: black ;
+    text-align: center;
+}
+
+.img-bg-white{
+    background-color: white;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-bg-white img{
+    width: 100%;
+}
+
+#bt-purple{
+    background-color: #9593e6;
+}
