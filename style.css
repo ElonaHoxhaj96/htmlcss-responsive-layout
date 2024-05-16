@@ -35,13 +35,14 @@ main{
 }
 
 #contenitor{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
 
 section{
     margin: 40px auto;
+    width: 90%;
 }
 
 /* first section */    
@@ -123,4 +124,11 @@ a{
 .icone{
     color: #0084fd;
     font-size: 100px
+}
+
+
+/*STYLING Second section*/
+.bg-purple{
+    width: 100%;
+    background-color: purple;
 }
