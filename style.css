@@ -63,6 +63,7 @@ section{
     align-items: center;
     text-align: center;
     gap: 30px;
+    line-height: 30px;
     
 }
 
@@ -76,6 +77,11 @@ section{
 
 #blue h2{
     color: #0084fd;
+}
+
+#blue p{
+    font-weight: bold;
+    color: #5d7384;
 }
 
 button{
