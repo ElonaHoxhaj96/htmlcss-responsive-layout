@@ -213,7 +213,7 @@ button > a{
     font-size: 20px;
 }
 
-/*SETTING THIRD SECTION*/
+/*SETTING THIRD SECTION "Testimonials"*/
 #testimonials{
     text-align: center;
 } 
@@ -231,6 +231,7 @@ button > a{
 .photo-circle{
     clip-path: circle();
     width: 100%;
+    position: relative;
 }
 
 .color-purple i{
@@ -238,7 +239,7 @@ button > a{
     padding: 0 15px;
 }
 
-/*SETTING FOURTH SECTION*/
+/*SETTING FOURTH SECTION "benefit of working with us"-*/
 .number{
     display: flex;
     flex-direction: column;
@@ -262,26 +263,27 @@ button > a{
     text-align: center;
 }
 
-/*SETTING FIFTH SECTION*/
+/*SETTING FIFTH SECTION About Us*/
 #about-us{
     align-items: start;
 }
 
 #about-us > div{
-    width: 50%;
-    position: relative;
+    width: 30%;
+    position: relative; 
+       
 }
+
 
 #about-us h2{
     color: #9593e6;
 }
 
 .quote{
-    font-size: 60px;
+    font-size: 300%;
     color: #9593e6;
     position: absolute;
-    top: 0;
-    right: 0;
+
 }
 
 /*SETTING SIXTH SECTION*/
@@ -296,6 +298,7 @@ button > a{
 .get-started h1{
     color: orange;
 }
+
 .get-started h3{
     margin: 0;
 }
@@ -305,4 +308,25 @@ button > a{
 
 .get-started span{
     color: white;
+}
+
+#privacy{
+    color:white ;
+    text-decoration: underline;
+}
+
+/*SETTING FOOTER*/
+footer{
+    background-color: #000;
+    color: white;
+    padding: 5%;
+}
+
+#end-page {
+    margin: 0 auto;
+    text-align: center;
+}
+.underline-a{
+    text-decoration: underline;
+    color: #9593e6;
 }
