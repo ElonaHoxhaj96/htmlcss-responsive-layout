@@ -254,6 +254,12 @@ button > a{
     color: #9593e6;
 
 }
+.benefit h2{
+    margin: 30px 0;
+    width: 90%;
+    color: white;
+    text-align: center;
+}
 
 /*SETTING FIFTH SECTION*/
 #about-us{
