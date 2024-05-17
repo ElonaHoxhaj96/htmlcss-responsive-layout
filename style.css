@@ -283,3 +283,26 @@ button > a{
     top: 0;
     right: 0;
 }
+
+/*SETTING SIXTH SECTION*/
+.get-started{
+    align-items: center;
+}
+.get-started h4{
+    font-weight: 0;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.get-started h1{
+    color: orange;
+}
+.get-started h3{
+    margin: 0;
+}
+.get-started button > a{
+    color: #9593e6;
+}
+
+.get-started span{
+    color: white;
+}
