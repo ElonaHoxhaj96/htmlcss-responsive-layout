@@ -1,1 +1,51 @@
 /*RESPONSIVE FOR PHONE*/ 
+
+
+@media all and (min-width: 569px) {
+    
+    #blue{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content:center ;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+
+    .blu-cards{
+        flex-wrap: wrap;
+        background-color: #b5ddff;
+        padding: 30px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        gap: 30px;
+        width: calc((100% / 3) - 30px);
+        
+    }
+
+    .blu-cards.big{
+        height: 30%;
+        align-items: flex-start;
+        text-align: start;
+        padding-bottom: 0;
+        width:  calc((100% / 2) - 30px); 
+    }
+    
+    #phone-img{
+        width: 40%;
+        margin: 0;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+    }
+    .blu-cards.big > button{
+        margin: 0;
+    }
+
+
+    
+}
