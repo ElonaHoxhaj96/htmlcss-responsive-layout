@@ -229,6 +229,7 @@ button > a{
 
 .photo-circle{
     clip-path: circle();
+    width: 100%;
 }
 
 .color-purple i{
@@ -249,7 +250,17 @@ button > a{
     margin: 0;
 }
 
-.benefit  h1 , h3{
+.benefit  h1 , h3 , #about-us h1 , h3 {
     color: #9593e6;
 
 }
+
+/*SETTING FIFTH SECTION*/
+#about-us{
+    align-items: start;
+}
+
+#about-us > div{
+    width: 50%;
+}
+
