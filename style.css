@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "PT Sans";
-    line-height: 30px;
 }
 
 /*property generic of tag "h" "p" and "a"*/
@@ -25,6 +24,7 @@ h3{
 
 p{
     font-size: 16px;
+    line-height: 30px;
 }
 a{
     text-decoration: none;
@@ -37,6 +37,7 @@ header{
     height: 70px;
     position: fixed;
     z-index: 1000;
+    
 }
 
 nav{
@@ -268,5 +269,17 @@ button > a{
 
 #about-us > div{
     width: 50%;
+    position: relative;
 }
 
+#about-us h2{
+    color: #9593e6;
+}
+
+.quote{
+    font-size: 60px;
+    color: #9593e6;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
