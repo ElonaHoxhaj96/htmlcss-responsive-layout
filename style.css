@@ -6,6 +6,31 @@
     line-height: 30px;
 }
 
+/*property generic of tag "h" "p" and "a"*/
+h2{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+
 /*STYLING HEADER */
 header{
     width: 100%;
@@ -50,14 +75,6 @@ section , .purple{
     gap: 30px;  
 }
 
-p{
-    font-size: 16px;
-    font-weight: 600;
-}
-
-h3{
-    font-size: 30px;
-}
 
 /* first section */    
 #blue , .purple{
@@ -84,7 +101,6 @@ h3{
     align-items: flex-start;
     text-align: start;
     padding-bottom: 0;
-
 }
 
 #blue h3{
@@ -107,10 +123,6 @@ button{
     background-color: #0084fd;
     color: white;
     width: 50%;
-}
-
-a{
-    text-decoration: none;
 }
 
 #bt-blue > a{
@@ -194,7 +206,7 @@ a{
     width: 100%;
 }
 
-#bt-purple{
+.bt-purple{
     background-color: #9593e6;
 }
 .fa-arrow-down{
@@ -220,17 +232,8 @@ a{
     clip-path: circle();
 }
 
-
-
 .color-purple i{
     font-size: 30px;
     padding: 0 15px;
 }
 
-h2{
-    font-size: 40px;
-}
-
-h4{
-    font-size: 20px;
-}
