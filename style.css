@@ -25,7 +25,6 @@ h3{
 
 p{
     font-size: 16px;
-    font-weight: 600;
 }
 a{
     text-decoration: none;
@@ -107,8 +106,11 @@ section , .purple{
     color: #0084fd;
 }
 
-#blue p{
+#blue p {
     font-weight: bold;
+}
+
+#blue p , .number p{
     color: #5d7384;
 }
 
@@ -125,7 +127,7 @@ button{
     width: 50%;
 }
 
-#bt-blue > a{
+button > a{
     color: white;
     font-weight: bold;
     text-align: justify;
@@ -171,9 +173,7 @@ button{
 }
 
 .purple > p{
-    font-weight: 700;
     color: white;
-  
 }
 
 #italic-p{
@@ -199,7 +199,6 @@ button{
     color: black ;
     font-style: italic;
     text-align: center;
-
 }
 
 .img-bg-white img{
@@ -237,3 +236,20 @@ button{
     padding: 0 15px;
 }
 
+/*SETTING FOURTH SECTION*/
+.number{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10%;
+    padding: 50px 30px 30px 30px;
+}
+
+.more{
+    margin: 0;
+}
+
+.benefit  h1 , h3{
+    color: #9593e6;
+
+}
