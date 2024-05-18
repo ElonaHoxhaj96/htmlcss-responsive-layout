@@ -69,4 +69,21 @@
         line-height: 30px;
         padding: 5% 0;
     }
+
+    /*FOURTH SECTION */
+    .benefit{
+        flex-direction: row;
+        display: inline-block;
+    }
+
+    #contenitor-card-number{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .number{
+        width: calc(100% /3 - 30px);
+    }
 }
