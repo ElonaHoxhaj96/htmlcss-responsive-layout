@@ -46,8 +46,9 @@
         margin: 0;
     }
 
+
     /*THIRD SECTION */
-    .card{
+    #testimonials .card{
         display: block;
     }
     
@@ -83,7 +84,30 @@
         flex-wrap: wrap;
         gap: 30px;
     }
+
     .number{
         width: calc(100% /3 - 30px);
     }
+    
+    /*FIFTH SECTION */
+    #about-us{
+        flex-direction: row;
+        justify-content: stretch;
+    }
+
+    #about-us > div{
+        width: 40%;
+    }
+    #about-us > div:first-child{
+        width: 60%; 
+    }
+
+    .quote {
+        font-size: 300%;
+        color: #9593e6;
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+
 }
