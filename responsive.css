@@ -2,7 +2,7 @@
 
 
 @media all and (min-width: 569px) {
-    
+    /*FIRST SECTION*/
     #blue{
     display: flex;
     flex-direction: row;
@@ -46,6 +46,27 @@
         margin: 0;
     }
 
-
+    /*THIRD SECTION */
+    .card{
+        display: block;
+    }
     
+    .card > div{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    .card > h4 {
+        font-size: 20px;
+        text-align: start;
+        margin: 1% 40%;
+       
+    }
+    
+    .card > p{
+        font-size: 16px;
+        line-height: 30px;
+        padding: 5% 0;
+    }
 }
