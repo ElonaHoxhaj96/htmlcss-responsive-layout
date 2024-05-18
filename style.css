@@ -240,6 +240,12 @@ button > a{
 }
 
 /*SETTING FOURTH SECTION "benefit of working with us"-*/
+#contenitor-card-number{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .number{
     display: flex;
     flex-direction: column;
