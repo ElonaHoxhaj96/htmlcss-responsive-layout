@@ -1,6 +1,4 @@
-/*RESPONSIVE FOR PHONE*/ 
-
-
+/*RESPONSIVE FOR TABLET*/ 
 @media all and (min-width: 569px) {
     /*FIRST SECTION*/
     #blue{
@@ -110,4 +108,27 @@
         right: 10%;
     }
 
+    
+    .get-started, #end-page{
+        max-width: 70%;
+    }
+}
+
+/*RESPONSIVE FOR DISPLAY*/ 
+@media all and (min-width: 1021px) {
+    nav{
+        max-width: 1420px;
+        
+    }
+
+    #blue, .purple , #testimonials, #contenitor-card-number,{
+        max-width: 1420px;
+
+    }
+
+    .get-started, #end-page{
+        max-width: 50%;
+
+    }
+    
 }
