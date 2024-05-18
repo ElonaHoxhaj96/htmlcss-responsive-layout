@@ -9,7 +9,7 @@
     align-items: stretch;
     justify-content:center ;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     }
 
     .blu-cards{
@@ -22,17 +22,17 @@
         text-align: center;
         justify-content: center;
         align-content: center;
+        align-items: stretch;
         gap: 30px;
         width: calc((100% / 3) - 30px);
         
     }
 
     .blu-cards.big{
-        height: 30%;
         align-items: flex-start;
         text-align: start;
         padding-bottom: 0;
-        width:  calc((100% / 2) - 30px); 
+        width:  65%; 
     }
     
     #phone-img{
