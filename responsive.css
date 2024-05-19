@@ -82,9 +82,19 @@
         flex-wrap: wrap;
         gap: 30px;
     }
-
+    
     .number{
-        width: calc(100% /3 - 30px);
+        width: calc(100% /2 - 30px);
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    #contenitor-card-number > h2{
+        font-size: 50px;
+    }
+    
+    .more{
+        width: 50%;
     }
     
     /*FIFTH SECTION */
@@ -115,20 +125,22 @@
 }
 
 /*RESPONSIVE FOR DISPLAY*/ 
-@media all and (min-width: 1021px) {
+@media screen and (min-width: 1021px) {
     nav{
         max-width: 1420px;
-        
     }
-
-    #blue, .purple , #testimonials, #contenitor-card-number,{
+    #blue, .purple , #testimonials, #contenitor-card-number{
         max-width: 1420px;
-
     }
 
     .get-started, #end-page{
         max-width: 50%;
+    }
 
+    .number{
+        width: calc(100% /3 - 30px);
+        margin: 0;
+        align-items: flex-start;
     }
     
 }
