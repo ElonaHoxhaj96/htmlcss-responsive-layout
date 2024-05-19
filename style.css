@@ -192,12 +192,13 @@ button > a{
     margin: 50px 0;
 }
 
-.purple > p{
+.purple p{
     color: white;
 }
 
 #italic-p{
     font-style:italic ;
+    color: #000;
 }
 
 .img-bg{
